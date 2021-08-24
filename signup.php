@@ -466,6 +466,7 @@
     </body>
 </html>
 <?php
+/*
 $connection=mysqli_connect("localhost:3307","root","","drones") or die("no connected");
 mysqli_select_db($connection,"drones") or die("no database");
 if(isset($_POST['submit']))
@@ -480,5 +481,6 @@ if(isset($_POST['submit']))
     $details="INSERT INTO users (firstname,lastname,password,gender,email,phonenumber) VALUES ('$firstname','$lastname','$password1','$gender','$email','$phonenumber')";
 $query=mysqli_query($connection,$details);
 }
+*/
 ?>
 
